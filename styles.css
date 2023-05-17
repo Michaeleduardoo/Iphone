@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #f0ffff;
+}
+
+#caixa-roxa {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #bfcdda;
+}
+
+.logo {
+  height: 20px;
+}
+
+ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  margin-left: 50px;
+}
+
+li {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+li:hover {
+  color: #a9b6c6;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+#caixa-azul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  padding-left: 90px;
+}
+
+.titu-Iphone {
+  font-size: 20px;
+  color: #008b8b;
+}
+
+.titu-secundario {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.paragrafo {
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: #9f9e9e;
+  font-size: 16px;
+}
+
+.preco {
+  font-size: 20px;
+  font-weight: 300px;
+  margin-bottom: 20px;
+}
+
+.botao {
+  background-color: #008b8b;
+  color: #fff;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+}
+
+.botao:hover {
+  background-color: #1c1c1c;
+  transition: 0.3s;
+}
+
+.escolha-cor {
+  font-size: 20px;
+  color: #1c1c1c;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.button-cor {
+  width: 40px;
+  height: 40px;
+  background: gray;
+  cursor: pointer;
+  border-radius: 50px;
+  border: none;
+}
+
+.azul {
+  background-color: #478ab7;
+}
+
+.amarelo {
+  background-color: #ffd700;
+}
+
+.branco {
+  background-color: #dcdcdc;
+}
+
+.preto {
+  background-color: #000;
+}
+
+.vermelho {
+  background-color: #d31c30;
+}
+
+.roxo {
+  background-color: #7258af;
+}
+
+.img-iphone {
+  width: 342px;
+  z-index: 99;
+}
+
+.circulo {
+  width: 100%;
+  height: 100%;
+  background: #478ab7;
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  clip-path: circle(580px at right 850px);
+}
+
+.caixa {
+  display: none;
+}
+
+@media all and (max-width: 780px) {
+  #caixa-roxa {
+    display: none;
+  }
+
+  .caixa {
+    display: block;
+  }
+
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+  }
+
+  #meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f5f5f7;
+  }
+
+  .caret {
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #000;
+    margin-right: 20px;
+  }
+
+  .caret-rotate {
+    transform: rotate(180deg);
+  }
+
+  ul {
+    display: block;
+    margin-left: 0;
+    margin: 10px;
+    background-color: #f5f5f7;
+    border-radius: 30px;
+    opacity: 0;
+    transition: 0.5s;
+    position: absolute;
+    width: 95%;
+    top: 100px;
+  }
+
+  .menu-open {
+    display: block;
+    opacity: 1;
+    transition: 0.5s;
+  }
+
+  li {
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+  }
+
+  li:hover {
+    color: #808080;
+    text-align: center;
+  }
+
+  #caixa-azul {
+    text-align: center;
+    margin-top: 30px;
+    padding: 0;
+    display: block;
+  }
+
+  .circulo {
+    left: 0;
+    top: 560px;
+    clip-path: none;
+    height: 555px;
+    position: absolute;
+  }
+
+  .img-iphone {
+    position: relative;
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
