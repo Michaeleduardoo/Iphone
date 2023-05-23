@@ -12,12 +12,11 @@
  </div>
  
  <h2 align="center">Assista ao vídeo abaixo.</h2>
- 
-https://github.com/Michaeleduardoo/Iphone/assets/106412874/913df650-d5de-4062-b6e7-faa6166b7754
 
+ <video width=30%; src="https://github.com/Michaeleduardoo/Iphone/assets/106412874/913df650-d5de-4062-b6e7-faa6166b7754">
 
-<h1 align="center"><a href="https://webiphone.netlify.app/" >
+ <h1 align="center"><a href="https://webiphone.netlify.app/" >
   SITE IPHONE
 </a></h1>
- 
+
 
