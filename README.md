@@ -13,9 +13,21 @@
  
  <h2 align="center">Assista ao vídeo abaixo.</h2>
 
+
+
 <div>
-   <video src="https://github.com/Michaeleduardoo/Iphone/assets/106412874/913df650-d5de-4062-b6e7-faa6166b7754"></video>
+ 
+
+
+https://github.com/Michaeleduardoo/Iphone/assets/106412874/6794094b-dffd-48f9-8ae2-d5304bce52fa
+
+
+
 </div>
+
+
+
+
    
 </div>
  <h1 align="center"><a href="https://webiphone.netlify.app/" >
